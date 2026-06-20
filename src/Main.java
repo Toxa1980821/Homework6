@@ -95,7 +95,7 @@ public class Main {
         // задача 7
         System.out.println(" Задача № 7 ");
 
-        int one = 12;
+        int one = 10;
         int two = 21;
         int three = 41;
         if (one >= two && one >= three) {
