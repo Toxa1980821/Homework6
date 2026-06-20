@@ -6,25 +6,21 @@ public class Main {
         // задача 1
         System.out.println(" Задача № 1 ");
 
-        int age = 16;
-        if (age < 18) {
-        System.out.println("Если возраст человека равен " + age + " , то он не достиг совершеннолетия нужно немного подождать");
-        }
-        int age1 = 18;
-        if (age1 == 18) {
-            System.out.println("Если возраст человека равен " + age1 + " , то он совершеннолетний");
+        int age = 20;
+        if (age >= 18) {
+            System.out.println("Если возраст человека равен " + age + " , то он совершеннолетний");
+        } else {
+            System.out.println("Если возраст человека равен " + age + " , то он не достиг совершеннолетия нужно немного подождать");
         }
 
         // задача 2
         System.out.println(" Задача № 2 ");
 
-        byte temperature = 0;
+        byte temperature = 20;
         if (temperature < 5) {
             System.out.println("На улице " + temperature + " градусов нужно надеть шапку" );
-        }
-        byte temperature2 = 15;
-        if (temperature2 > 5) {
-            System.out.println("На улице " + temperature2 + " градусов можно идти без шапки" );
+        } else {
+            System.out.println("На улице " + temperature + " градусов можно идти без шапки" );
         }
 
         // задача 3
@@ -45,21 +41,20 @@ public class Main {
         // задача 4
         System.out.println(" Задача № 4 ");
 
-        int ages2To6 = 5;
-        if (ages2To6 >= 2 && ages2To6 < 6) {
-            System.out.println("Если возраст человека равен " + ages2To6 + " лет , то ему нужно ходить в детский сад");
+        int personAge = 25;
+        if (personAge >= 2 && personAge < 6) {
+            System.out.println("Если возраст человека равен " + personAge + " лет , то ему нужно ходить в детский сад");
         }
-        int ages7To17 = 10;
-        if (ages7To17 >= 7 && ages7To17 < 17) {
-            System.out.println("Если возраст человека равен " + ages7To17 + " лет , то ему нужно ходить в школу");
+
+        else if (personAge >= 7 && personAge < 17) {
+            System.out.println("Если возраст человека равен " + personAge + " лет , то ему нужно ходить в школу");
         }
-        int ages18To24 = 20;
-        if (ages18To24 >= 18 && ages2To6 <= 24) {
-            System.out.println("Если возраст человека равен " + ages18To24 + " лет , то ему нужно ходить в университет");
+
+        else if (personAge >= 18 && personAge <= 24) {
+            System.out.println("Если возраст человека равен " + personAge + " лет , то ему нужно ходить в университет");
         }
-        int age24 = 26;
-        if (age24 > 24) {
-            System.out.println("Если возраст человека равен " + age24 + " лет , то ему нужно ходить на работу");
+        else if (personAge > 24) {
+            System.out.println("Если возраст человека равен " + personAge + " лет , то ему нужно ходить на работу");
         }
 
         // задача 5
