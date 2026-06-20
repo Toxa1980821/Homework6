@@ -18,9 +18,9 @@ public class Main {
 
         byte temperature = 20;
         if (temperature < 5) {
-            System.out.println("На улице " + temperature + " градусов нужно надеть шапку" );
+            System.out.println("На улице " + temperature + " градусов нужно надеть шапку");
         } else {
-            System.out.println("На улице " + temperature + " градусов можно идти без шапки" );
+            System.out.println("На улице " + temperature + " градусов можно идти без шапки");
         }
 
         // задача 3
@@ -33,9 +33,9 @@ public class Main {
         int speed1 = 80;
         if (speed1 == 60) {
             System.out.println("Если скорость " + speed1 + ", то придется заплатить штраф");
-        } else
-            {System.out.println("Если скорость 60 , то можно ездить спокойно");
-            }
+        } else {
+            System.out.println("Если скорость 60 , то можно ездить спокойно");
+        }
 
 
         // задача 4
@@ -44,16 +44,11 @@ public class Main {
         int personAge = 25;
         if (personAge >= 2 && personAge < 6) {
             System.out.println("Если возраст человека равен " + personAge + " лет , то ему нужно ходить в детский сад");
-        }
-
-        else if (personAge >= 7 && personAge < 17) {
+        } else if (personAge >= 7 && personAge < 17) {
             System.out.println("Если возраст человека равен " + personAge + " лет , то ему нужно ходить в школу");
-        }
-
-        else if (personAge >= 18 && personAge <= 24) {
+        } else if (personAge >= 18 && personAge <= 24) {
             System.out.println("Если возраст человека равен " + personAge + " лет , то ему нужно ходить в университет");
-        }
-        else if (personAge > 24) {
+        } else if (personAge > 24) {
             System.out.println("Если возраст человека равен " + personAge + " лет , то ему нужно ходить на работу");
         }
 
@@ -63,13 +58,13 @@ public class Main {
         byte childsAge = 3;
         if (childsAge < 5) {
             System.out.println("Если возраст ребенка равен " + childsAge + " года, то он не может кататься на атракционе");
-        }   else {
+        } else {
             System.out.println(" Если возраст ребенка больше 5 лет, то он может кататься на атракционе в сопровождении взрослого");
         }
         byte childsAge1 = 14;
-        if (childsAge1 > 5 && childsAge1 <= 14) {
+        if (childsAge1 >= 5 && childsAge1 <= 14) {
             System.out.println("Если возраст ребенка равен " + childsAge1 + " лет, то он может кататься на атракционе в сопровождении взрослого");
-        }   else {
+        } else {
             System.out.println(" Если возраст ребенка больше 14 лет, то он может кататься на атракционе без сопровождения взрослого");
         }
         byte childsAge2 = 16;
@@ -84,12 +79,11 @@ public class Main {
         int seating = 60; // всего сидячих мест
         int numberOfPassengers = 0; // колличество пассажиров
 
-        if ( numberOfPassengers < seating ) {
+        if (numberOfPassengers < seating) {
             System.out.println("Есть места в вагоне сидячие ");
-        }
-            else if (numberOfPassengers >= seating && numberOfPassengers < fullCarriage ) {
+        } else if (numberOfPassengers >= seating && numberOfPassengers < fullCarriage) {
             System.out.println("Есть места в вагоне стоячие");
-        }   else {
+        } else {
             System.out.println("Вагон уже полностью забит ");
         }
         // задача 7
